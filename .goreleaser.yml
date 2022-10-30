@@ -1,0 +1,9 @@
+builds:
+  - binary: covercut
+    main: ./cmd
+    goos:
+      - darwin
+    goarch:
+      - arm64
+    env:
+      - CGO_ENABLED=0
